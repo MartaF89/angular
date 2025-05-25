@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: rgb(23, 5, 112);
+}
+.verde {
+  background-color: green;
+}
+.giallo {
+  background-color: yellow;
+}
+.gray {
+  background-color: gray;
+}

@@ -1,0 +1,16 @@
+<div style="font-size: 1.5em; font-family: sans-serif; margin: 10px">
+  Lista Transazioni
+</div>
+<div
+  style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+  "
+>
+  @for (p of prodotti; track p.name) {
+  <app-card [prodotto]="p"></app-card>
+  }
+</div>
