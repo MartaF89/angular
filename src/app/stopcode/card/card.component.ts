@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { TipoProdotto } from '../../moduli/card.singola';
+import { TipoProdotto } from '../../models/card.singola';
 import { CurrencyPipe, DatePipe, NgClass } from '@angular/common';
 
 @Component({

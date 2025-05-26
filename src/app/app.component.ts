@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ListaTransazioniComponent } from "./stopcode/lista-transazioni/lista-transazioni.component";
-import { TipoProdotto } from './moduli/card.singola';
+import { TipoProdotto } from './models/card.singola';
 
 
 
@@ -14,7 +14,8 @@ import { TipoProdotto } from './moduli/card.singola';
 })
 export class AppComponent {
   title = 'angular';
-  prodotti: TipoProdotto[] = [ //deve essere uguale al prodotto creato in card.ts
+  prodotti: TipoProdotto[] = [ //deve essere uguale al prodotto creato in card.ts TipoProdotto [] = è il collegamento che mi serve
+    //per collegarmi al file card.ts
 
 
     {

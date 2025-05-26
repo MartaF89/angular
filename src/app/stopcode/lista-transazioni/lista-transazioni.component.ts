@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CardComponent,  } from '../card/card.component';
 import { JsonPipe } from '@angular/common';
-import { TipoProdotto } from '../../moduli/card.singola';
+import { TipoProdotto } from '../../models/card.singola';
 
 @Component({
   selector: 'app-lista-transazioni',

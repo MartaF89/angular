@@ -18,7 +18,12 @@
   </h5>
   <p class="card-date">{{ prodotto.name }}</p>
   <p class="card-business">Account: {{ prodotto.account }}</p>
-  <p class="card-name">Date: {{ prodotto.date | date }}</p>
+  <p class="card-name">
+    Date: {{ prodotto.date * 1000 | date : "dd/MM/yyyy HH:mm" }}
+    <!-- formattato con ora, la pipe importata in ts rimane uguale, qui aggiungo 
+    la moltiplicazione per 1000 e la specifica dd/MM/yyyy 
+     -->
+  </p>
   <p class="card-type">Type: {{ prodotto.type }}</p>
   <p class="card-account" [ngClass]="{ giallo: prodotto.amount > 700 }">
     Amount: {{ prodotto.amount | currency }}
